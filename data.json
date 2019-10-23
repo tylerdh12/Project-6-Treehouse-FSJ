@@ -1,88 +1,124 @@
 {
-    "author":{
-        "firstName": "Tyler",
-        "lastName": "Harper"
+    "projects": [
+    { 
+      "id": 0,
+      "project_name": "Project 1 | Random Quotes Generator",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://random-quotes.jsstack.dev/",
+      "github_link": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Complete"
     },
-    "project": [
-      {
-        "title": "Project 1 | Random Quotes Generator",
-        "link": {
-            "public": "https://random-quotes.jsstack.dev/",
-            "github": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project"
-        },
-        "status": "Complete"
-      },
-      {
-        "title": "Project 2 | List Pagination and Filtering",
-        "link": {
-            "public": "https://pagination.jsstack.dev/",
-            "github": "https://github.com/tylerdh12/TeamTreehouse-List_Pagination_and_Filtering-Unit-2-Project"
-        },
-        "status": "Complete"
-      },
-      {
-        "title": "Project 3 | Interactive Form",
-        "link": {
-            "public": "https://interactiveform.jsstack.dev/",
-            "github": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project"
-        },
-        "status": "Complete"
-      },
-      {
-        "title": "Project 4 | Phrase Hunter Game Show",
-        "link": {
-            "public": "https://gameshow.jsstack.dev/",
-            "github": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project"
-        },
-        "status": "Complete"
-      },
-      {
-        "title": "Project 5 | Employee Directory",
-        "link": {
-            "public": "https://employee-dir.jsstack.dev/",
-            "github": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ"
-        },
-        "status": "Complete"
-      },
-      {
-        "title": "Project 6 | Portfolio Project",
-        "link": {
-            "public": "",
-            "github": "https://github.com/tylerdh12/Project-6-TeamTreehouse-FSJ"
-        },
-        "status": "In-Progress"
-      },
-      {
-        "title": "Project 7 | React Gallery",
-        "link": {
-            "public": "",
-            "github": ""
-        },
-        "status": "Unavailable"
-      },
-      {
-        "title": "Project 8 | SQL Library Manager",
-        "link": {
-            "public": "",
-            "github": ""
-        },
-        "status": "Unavailable"
-      },
-      {
-        "title": "Project 9 | REST API",
-        "link": {
-            "public": "",
-            "github": ""
-        },
-        "status": "Unavailable"
-      },
-      {
-        "title": "Project 10 | FullStack App with React and REST API",
-        "link": {
-            "public": "",
-            "github": ""
-        },
-        "status": "Unavailable"
-      }
-    ],
-  }
+    {
+      "id": 1,
+      "project_name": "Project 2 | List Pagination and Filtering",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://pagination.jsstack.dev/",
+      "github_link": "https://github.com/tylerdh12/TeamTreehouse-List_Pagination_and_Filtering-Unit-2-Project",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Complete"
+    },
+    {
+      "id": 2,
+      "project_name": "Project 3 | Interactive Form",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://interactiveform.jsstack.dev/",
+      "github_link": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Complete"
+    },
+    {
+      "id": 3,
+      "project_name": "Project 4 | Phrase Hunter Game Show",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://gameshow.jsstack.dev/",
+      "github_link": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Complete"
+    },
+    {
+      "id": 4,
+      "project_name": "Project 5 | Employee Directory",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://employee-dir.jsstack.dev/",
+      "github_link": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Complete"
+    },
+    {
+      "id": 5,
+      "project_name": "Project 6 | Portfolio Project",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://employee-dir.jsstack.dev/",
+      "github_link": "https://githu_linkb.com/tylerdh12/Project-6-TeamTreehouse-FSJ",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "In-Progress"
+    },
+    {
+      "id": 6,
+      "project_name": "Project 7 | React Gallery",
+      "description": "",
+      "technologies": [],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Unavailable"
+    },
+    {
+      "id": 7,
+      "project_name": "Project 8 | SQL Library Manager",
+      "description": "",
+      "technologies": [],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Unavailable"
+    },
+    {
+      "id": 8,
+      "project_name": "Project 9 | REST API",
+      "description": "",
+      "technologies": [],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Unavailable"
+    },
+    {
+      "id": 9,
+      "project_name": "Project 10 | Full Stack App with REACT and a REST API",
+      "description": "",
+      "technologies": [],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "/images/"
+      ],
+      "status": "Unavailable"
+    }
+  ]
+}
