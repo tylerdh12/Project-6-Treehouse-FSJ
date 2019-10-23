@@ -1,0 +1,88 @@
+{
+    "author":{
+        "firstName": "Tyler",
+        "lastName": "Harper"
+    },
+    "project": [
+      {
+        "title": "Project 1 | Random Quotes Generator",
+        "link": {
+            "public": "https://random-quotes.jsstack.dev/",
+            "github": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project"
+        },
+        "status": "Complete"
+      },
+      {
+        "title": "Project 2 | List Pagination and Filtering",
+        "link": {
+            "public": "https://pagination.jsstack.dev/",
+            "github": "https://github.com/tylerdh12/TeamTreehouse-List_Pagination_and_Filtering-Unit-2-Project"
+        },
+        "status": "Complete"
+      },
+      {
+        "title": "Project 3 | Interactive Form",
+        "link": {
+            "public": "https://interactiveform.jsstack.dev/",
+            "github": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project"
+        },
+        "status": "Complete"
+      },
+      {
+        "title": "Project 4 | Phrase Hunter Game Show",
+        "link": {
+            "public": "https://gameshow.jsstack.dev/",
+            "github": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project"
+        },
+        "status": "Complete"
+      },
+      {
+        "title": "Project 5 | Employee Directory",
+        "link": {
+            "public": "https://employee-dir.jsstack.dev/",
+            "github": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ"
+        },
+        "status": "Complete"
+      },
+      {
+        "title": "Project 6 | Portfolio Project",
+        "link": {
+            "public": "",
+            "github": "https://github.com/tylerdh12/Project-6-TeamTreehouse-FSJ"
+        },
+        "status": "In-Progress"
+      },
+      {
+        "title": "Project 7 | React Gallery",
+        "link": {
+            "public": "",
+            "github": ""
+        },
+        "status": "Unavailable"
+      },
+      {
+        "title": "Project 8 | SQL Library Manager",
+        "link": {
+            "public": "",
+            "github": ""
+        },
+        "status": "Unavailable"
+      },
+      {
+        "title": "Project 9 | REST API",
+        "link": {
+            "public": "",
+            "github": ""
+        },
+        "status": "Unavailable"
+      },
+      {
+        "title": "Project 10 | FullStack App with React and REST API",
+        "link": {
+            "public": "",
+            "github": ""
+        },
+        "status": "Unavailable"
+      }
+    ],
+  }
