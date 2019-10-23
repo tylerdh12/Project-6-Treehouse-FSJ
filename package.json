@@ -1,0 +1,19 @@
+{
+  "name": "project-6-teamtreehouse-fsj",
+  "version": "1.0.0",
+  "description": "Team Treehouse Project 6 | Portfolio page using Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerdh12/Project-6-TeamTreehouse-FSJ.git"
+  },
+  "author": "Tyler Harper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerdh12/Project-6-TeamTreehouse-FSJ/issues"
+  },
+  "homepage": "https://github.com/tylerdh12/Project-6-TeamTreehouse-FSJ#readme"
+}
