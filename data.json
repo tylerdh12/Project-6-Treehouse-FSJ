@@ -1,124 +1,138 @@
 {
+  "data": {
+    "name": "Tyler Harper",
+    "project_name": "Personal Portfolio",
+    "about": " This is the little blurb",
+    "bio": "I have been working in web development for several years now. The projects I have done were very minimal in comparison the the content and projects I have been working on recently. I have build and maintained several small business websites, and onlune stores. I decided in December of 2018 that I would focus on directing my path to a degree in FullStack Web Development. Since then I have built many little projects, both personal and for educational purposes. I am really interested in the Vue JS framework and hope to develope a fundimental understanding of it. Here are some of my current projects. There will be more added in the future.",
+    "dob": "01/26/1990",
+    "phone": "(360) 984-7650",
+    "email": "tyler@jsstack.dev",
+    "linkedin_account": "https://www.linkedin.com/in/tyler-harper-36bb43195/",
+    "github_account": "https://github.com/tylerdh12",
+    "twitter_account": "https://twitter.com/jsstackdev",
+    
     "projects": [
-    { 
-      "id": 0,
-      "project_name": "Project 1 | Random Quotes Generator",
-      "description": "",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://random-quotes.jsstack.dev/",
-      "github_link": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Complete"
-    },
-    {
-      "id": 1,
-      "project_name": "Project 2 | List Pagination and Filtering",
-      "description": "",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://pagination.jsstack.dev/",
-      "github_link": "https://github.com/tylerdh12/TeamTreehouse-List_Pagination_and_Filtering-Unit-2-Project",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Complete"
-    },
-    {
-      "id": 2,
-      "project_name": "Project 3 | Interactive Form",
-      "description": "",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://interactiveform.jsstack.dev/",
-      "github_link": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Complete"
-    },
-    {
-      "id": 3,
-      "project_name": "Project 4 | Phrase Hunter Game Show",
-      "description": "",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://gameshow.jsstack.dev/",
-      "github_link": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Complete"
-    },
-    {
-      "id": 4,
-      "project_name": "Project 5 | Employee Directory",
-      "description": "",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://employee-dir.jsstack.dev/",
-      "github_link": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Complete"
-    },
-    {
-      "id": 5,
-      "project_name": "Project 6 | Portfolio Project",
-      "description": "",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://employee-dir.jsstack.dev/",
-      "github_link": "https://githu_linkb.com/tylerdh12/Project-6-TeamTreehouse-FSJ",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "In-Progress"
-    },
-    {
-      "id": 6,
-      "project_name": "Project 7 | React Gallery",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Unavailable"
-    },
-    {
-      "id": 7,
-      "project_name": "Project 8 | SQL Library Manager",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Unavailable"
-    },
-    {
-      "id": 8,
-      "project_name": "Project 9 | REST API",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Unavailable"
-    },
-    {
-      "id": 9,
-      "project_name": "Project 10 | Full Stack App with REACT and a REST API",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
-      "image_urls": [
-        "/images/"
-      ],
-      "status": "Unavailable"
-    }
-  ]
+      { 
+        "id": 0,
+        "project_name": "Project 1 | Random Quotes Generator",
+        "description": "This project was an example of looping thru an array and changing content and colors",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://random-quotes.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 1,
+        "project_name": "Project 2 | List Pagination and Filtering",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://pagination.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/TeamTreehouse-List_Pagination_and_Filtering-Unit-2-Project",
+        "image_urls": [
+          "/static/images/projects/project_2/Pagination-Project.png",
+          "/static/images/projects/project_2/Pagination-Project-2.png"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 2,
+        "project_name": "Project 3 | Interactive Form",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://interactiveform.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 3,
+        "project_name": "Project 4 | Phrase Hunter Game Show",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://gameshow.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 4,
+        "project_name": "Project 5 | Employee Directory",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://employee-dir.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 5,
+        "project_name": "Project 6 | Portfolio Project",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript", "Node", "Express"],
+        "live_link": "https://employee-dir.jsstack.dev/",
+        "github_link": "https://githu_linkb.com/tylerdh12/Project-6-TeamTreehouse-FSJ",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "In-Progress"
+      },
+      {
+        "id": 6,
+        "project_name": "Project 7 | React Gallery",
+        "description": "",
+        "technologies": [],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Unavailable"
+      },
+      {
+        "id": 7,
+        "project_name": "Project 8 | SQL Library Manager",
+        "description": "",
+        "technologies": [],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Unavailable"
+      },
+      {
+        "id": 8,
+        "project_name": "Project 9 | REST API",
+        "description": "",
+        "technologies": [],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Unavailable"
+      },
+      {
+        "id": 9,
+        "project_name": "Project 10 | Full Stack App with REACT and a REST API",
+        "description": "",
+        "technologies": [],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [
+          "/images/"
+        ],
+        "status": "Unavailable"
+      }
+    ]
+  }
 }
