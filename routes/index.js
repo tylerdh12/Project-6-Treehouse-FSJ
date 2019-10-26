@@ -11,14 +11,14 @@ router.get('/', (req, res) => {
         name: data.name,
         projectName: data.project_name,
         about: data.about,
-        id: projects[1].id,
-        project_name: projects[1].project_name, 
-        description: projects[1].description, 
-        technologies: projects[1].technologies, 
-        live_link: projects[1].live_link,
-        github_link: projects[1].github_link, 
-        image_urls: projects[1].image_urls, 
-        status: projects[1].status
+        id: projects.id,
+        project_name: projects.project_name, 
+        description: projects.description, 
+        technologies: projects.technologies, 
+        live_link: projects.live_link,
+        github_link: projects.github_link, 
+        image_urls: projects.image_urls, 
+        status: projects.status
     });
 });
 

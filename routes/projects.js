@@ -4,7 +4,6 @@ const { data } = require('../data.json');
 const { projects } = data;
 
 project.get('/', (req, res) => {
-    const { id } = req.params;
     res.render('index', { 
         id: projects[req.params.id].id,
         project_name: projects[req.params.id].project_name, 
@@ -18,7 +17,6 @@ project.get('/', (req, res) => {
 });
 
 project.get('/:id', ( req, res ) => {
-    const { id } = req.params;
     res.render('project', { 
          id: projects[req.params.id].id,
         project_name: projects[req.params.id].project_name, 
