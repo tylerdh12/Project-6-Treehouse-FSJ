@@ -20,7 +20,8 @@
         "live_link": "https://random-quotes.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project",
         "image_urls": [
-          "/images/"
+          "/static/images/projects/project_1/Random-Quotes-Generator.png",
+          "/static/images/projects/project_1/Random-Quotes-Generator-2.png"
         ],
         "status": "Complete"
       },
@@ -45,7 +46,8 @@
         "live_link": "https://interactiveform.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project",
         "image_urls": [
-          "/images/"
+          "/static/images/projects/project_3/Interactive-Form-Project.png",
+          "/static/images/projects/project_3/Interactive-Form-Project-2.png"
         ],
         "status": "Complete"
       },
@@ -57,7 +59,8 @@
         "live_link": "https://gameshow.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project",
         "image_urls": [
-          "/images/"
+          "/static/images/projects/project_4/Game-Show-Project.png",
+          "/static/images/projects/project_4/Game-Show-Project-2.png"
         ],
         "status": "Complete"
       },
@@ -69,7 +72,9 @@
         "live_link": "https://employee-dir.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ",
         "image_urls": [
-          "/images/"
+          "/static/images/projects/project_5/Employee-Directory-Project.png",
+          "/static/images/projects/project_5/Employee-Directory-Project-2.png",
+          "/static/images/projects/project_5/Employee-Directory-Project-3.png"
         ],
         "status": "Complete"
       },
@@ -132,6 +137,19 @@
           "/images/"
         ],
         "status": "Unavailable"
+      },
+      {
+        "id": 10,
+        "project_name": "Password Generator",
+        "description": "This is just a little tool that generates a password based on the length you choose with lower case, upper case, symbols, and numbers.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://passwordgen.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/PasswordGenerator",
+        "image_urls": [
+          "/static/images/projects/personal_project/Password-Generator.png",
+          "/static/images/projects/personal_project/Password-Generator-2.png"
+        ],
+        "status": "Complete"
       }
     ]
   }
