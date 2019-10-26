@@ -9,6 +9,7 @@ router.get('/', (req, res) => {
     res.render('index', { 
         projects: projects,
         name: data.name,
+        avatar: data.avatar,
         projectName: data.project_name,
         about: data.about,
         id: projects.id,
@@ -25,6 +26,7 @@ router.get('/', (req, res) => {
 router.get('/about', (req, res) => {
     res.render('about', {
         name: data.name,
+        avatar: data.avatar,
         about: data.about,
         bio: data.bio,
         phone: data.phone,
