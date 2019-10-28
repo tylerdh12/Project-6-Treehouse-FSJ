@@ -21,6 +21,7 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
-    "flightplan": "^0.6.20"
+    "flightplan": "^0.6.20",
+    "fly": "^3.3.5"
   }
 }

@@ -3,8 +3,9 @@
     "name": "Tyler Harper",
     "avatar": "/static/images/avatar.jpg",
     "project_name": "Personal Portfolio",
-    "about": " This is the little blurb",
+    "about": "FullStack Developer",
     "bio": "I have been working in web development for several years now. The projects I have done were very minimal in comparison the the content and projects I have been working on recently. I have build and maintained several small business websites, and onlune stores. I decided in December of 2018 that I would focus on directing my path to a degree in FullStack Web Development. Since then I have built many little projects, both personal and for educational purposes. I am really interested in the Vue JS framework and hope to develope a fundimental understanding of it. Here are some of my current projects. There will be more added in the future.",
+    "skills": ["HTML", "CSS", "JavaScript", "Node", "Express", "Git", "Linux Terminal", "Photoshop", "GIMP"],
     "dob": "01/26/1990",
     "phone": "(360) 984-7650",
     "email": "tyler@jsstack.dev",
@@ -74,8 +75,7 @@
         "github_link": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ",
         "image_urls": [
           "/static/images/projects/project_5/Employee-Directory-Project.png",
-          "/static/images/projects/project_5/Employee-Directory-Project-2.png",
-          "/static/images/projects/project_5/Employee-Directory-Project-3.png"
+          "/static/images/projects/project_5/Employee-Directory-Project-2.png"
         ],
         "status": "Complete"
       },

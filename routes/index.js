@@ -29,6 +29,7 @@ router.get('/about', (req, res) => {
         avatar: data.avatar,
         about: data.about,
         bio: data.bio,
+        skills: data.skills,
         phone: data.phone,
         email: data.email,
         linkedin: data.linkedin_account,
