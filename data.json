@@ -17,7 +17,7 @@
       { 
         "id": 0,
         "project_name": "Project 1 | Random Quotes Generator",
-        "description": "This project was an example of looping thru an array and changing content and colors",
+        "description": "This app displays random quotes each time a button is clicked or a certian timeout has passed.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://random-quotes.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-Random_Quotes_Generator-Unit-1-Project",
@@ -30,7 +30,7 @@
       {
         "id": 1,
         "project_name": "Project 2 | List Pagination and Filtering",
-        "description": "",
+        "description": "This app takes a list of students and demonstrates a pagination list.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://pagination.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-List_Pagination_and_Filtering-Unit-2-Project",
@@ -43,7 +43,7 @@
       {
         "id": 2,
         "project_name": "Project 3 | Interactive Form",
-        "description": "",
+        "description": "This app has regex form validation and conditional behaviors. The form actually works.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://interactiveform.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-Interactive_Form-Unit_3_Project",
@@ -56,7 +56,7 @@
       {
         "id": 3,
         "project_name": "Project 4 | Phrase Hunter Game Show",
-        "description": "",
+        "description": "This app is a game that is based on 'hangman'. It uses Object-Oriented Programming and uses classes for game state. New games generate a new phrase for each game",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://gameshow.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/TeamTreehouse-OOP_Game_Show_App-Unit_4_Project",
@@ -69,7 +69,7 @@
       {
         "id": 4,
         "project_name": "Project 5 | Employee Directory",
-        "description": "",
+        "description": "This application pulls its data from a Random user generator API. It allows for searching based on user information.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://employee-dir.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/Project-5-TeamTreehouse-FSJ",
