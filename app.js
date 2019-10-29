@@ -29,6 +29,9 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.render('error');
+  if (err) {
+    console.log('Sorry but the page you are looking for in Not Available!');
+  }
 });
 
 // Server 

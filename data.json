@@ -81,66 +81,6 @@
       },
       {
         "id": 5,
-        "project_name": "Project 6 | Portfolio Project",
-        "description": "",
-        "technologies": ["HTML", "CSS", "JavaScript", "Node", "Express"],
-        "live_link": "https://employee-dir.jsstack.dev/",
-        "github_link": "https://githu_linkb.com/tylerdh12/Project-6-TeamTreehouse-FSJ",
-        "image_urls": [
-          "/images/"
-        ],
-        "status": "In-Progress"
-      },
-      {
-        "id": 6,
-        "project_name": "Project 7 | React Gallery",
-        "description": "",
-        "technologies": [],
-        "live_link": "",
-        "github_link": "",
-        "image_urls": [
-          "/images/"
-        ],
-        "status": "Unavailable"
-      },
-      {
-        "id": 7,
-        "project_name": "Project 8 | SQL Library Manager",
-        "description": "",
-        "technologies": [],
-        "live_link": "",
-        "github_link": "",
-        "image_urls": [
-          "/images/"
-        ],
-        "status": "Unavailable"
-      },
-      {
-        "id": 8,
-        "project_name": "Project 9 | REST API",
-        "description": "",
-        "technologies": [],
-        "live_link": "",
-        "github_link": "",
-        "image_urls": [
-          "/images/"
-        ],
-        "status": "Unavailable"
-      },
-      {
-        "id": 9,
-        "project_name": "Project 10 | Full Stack App with REACT and a REST API",
-        "description": "",
-        "technologies": [],
-        "live_link": "",
-        "github_link": "",
-        "image_urls": [
-          "/images/"
-        ],
-        "status": "Unavailable"
-      },
-      {
-        "id": 10,
         "project_name": "Password Generator",
         "description": "This is just a little tool that generates a password based on the length you choose with lower case, upper case, symbols, and numbers.",
         "technologies": ["HTML", "CSS", "JavaScript"],
