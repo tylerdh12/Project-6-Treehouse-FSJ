@@ -154,3 +154,15 @@ To get an "exceeds" rating, complete all of the steps below:
 - See the rubric in the "How You'll Be Graded" tab above for details on what you need to receive an "Exceed Expectations" grade.
 - Passing grades are final. If you try for the "Exceeds Expectations" grade, but miss an item and receive a “Meets Expectations” grade, you won’t get a second chance. Exceptions can be made for items that have been misgraded in review.
 - Always mention in the comments of your submission or any resubmission, what grade you are going for. Some students want their project to be rejected if they do not meet all Exceeds Expectations Requirements, others will try for all the "exceeds" requirement but do not mind if they pass with a Meets Expectations grade. Leaving a comment in your submission will help the reviewer understand which grade you are specifically going for
+
+
+What I changed in style:
+
+    Font Family of all typefaces to "Montserrat" for better clarity and contrast
+
+    Removed image Borders from foundation css files
+
+    Changed sidebar and title bar background color to a soft linear gradient
+        changed font colors in sidebar to adjust contrast and better visibility
+
+    Changed button background / hover background color and button text color

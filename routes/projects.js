@@ -5,6 +5,11 @@ const { projects } = data;
 
 project.get('/', (req, res) => {
     res.render('index', { 
+        projects: projects,
+        name: data.name,
+        avatar: data.avatar,
+        projectName: data.project_name,
+        about: data.about,
         id: projects[req.params.id].id,
         project_name: projects[req.params.id].project_name, 
         description: projects[req.params.id].description, 
@@ -18,7 +23,12 @@ project.get('/', (req, res) => {
 
 project.get('/:id', ( req, res ) => {
     res.render('project', { 
-         id: projects[req.params.id].id,
+        projects: projects,
+        name: data.name,
+        avatar: data.avatar,
+        projectName: data.project_name,
+        about: data.about,
+        id: projects[req.params.id].id,
         project_name: projects[req.params.id].project_name, 
         description: projects[req.params.id].description, 
         technologies: projects[req.params.id].technologies, 
