@@ -29,7 +29,13 @@ project.use((err, req, res, next) => {
     res.locals.error = err;
     err.message = "This Project Doesn't Exist";
     err.status = 404;
-    res.render('error');
+    res.render('error', { 
+        projects: projects,
+        name: data.name,
+        avatar: data.avatar,
+        projectName: data.project_name,
+        about: data.about,
+    });
     if (err) {
         console.log('Sorry but the project your looking for in Not Available');
     }

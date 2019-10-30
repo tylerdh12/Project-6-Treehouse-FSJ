@@ -9,6 +9,10 @@ const pug = require('pug');
 const mainRoutes = require('./routes/index');
 const project = require('./routes/projects');
 
+// Require data to import to error
+const { data } = require('./data.json');
+const { projects } = data;
+
 //Setup the view engine with pug templating
 app.set('view engine', 'pug');
 
@@ -21,17 +25,22 @@ app.use('/project', project);
 
 // Error Handler
 app.use((req, res, next) => {
-  const err = new Error('Not Found');
+  const err = new Error('This Page is Not Available');
   err.status = 404;
   next(err);
 });
 
-app.use((err, req, res, next) => {
+app.use(function(err, req, res, next) {
   res.locals.error = err;
-  res.render('error');
-  if (err) {
-    console.log('Sorry but the page you are looking for in Not Available!');
-  }
+  console.error(err.status + " This Page Is Not Available");
+  res.status(404)
+  res.render('error', {
+    projects: projects,
+    name: data.name,
+    avatar: data.avatar,
+    projectName: data.project_name,
+    about: data.about,
+  });
 });
 
 // Server 

@@ -2,6 +2,11 @@ extends layout.pug
 
 block content
     section#content
-        h1.errorMessage #{error.message}
-        h2.errorStatement There has been a #{error.status} error
-        p #{error.stack}
+        nav.grid-container.portfolio-breadcrumb
+            a(href='/') ← Back
+        article.grid-container.portfolio-intro.portfolio-project
+            h1.errorMessage #{error.message}
+            h2.errorStatement There has been a #{error.status} error
+            p #{error.stack}
+        nav.grid-container.portfolio-breadcrumb
+            a(href='/') ← Back
