@@ -1,31 +1,31 @@
 // Server Config
-const hostname = '127.0.0.1';
-const port = 3000;
+const hostname = "127.0.0.1";
+const port = process.env.PORT || 3000;
 
 // Imports
-const express = require('express');
+const express = require("express");
 const app = express();
-const pug = require('pug');
-const mainRoutes = require('./routes/index');
-const project = require('./routes/projects');
+const pug = require("pug");
+const mainRoutes = require("./routes/index");
+const project = require("./routes/projects");
 
 // Require data to import to error
-const { data } = require('./data.json');
+const { data } = require("./data.json");
 const { projects } = data;
 
 //Setup the view engine with pug templating
-app.set('view engine', 'pug');
+app.set("view engine", "pug");
 
 // links public folder
-app.use('/static', express.static('public'));
+app.use("/static", express.static("public"));
 
 // Router
-app.use('/', mainRoutes);
-app.use('/project', project);
+app.use("/", mainRoutes);
+app.use("/project", project);
 
 // Error Handler
 app.use((req, res, next) => {
-  const err = new Error('This Page is Not Available');
+  const err = new Error("This Page is Not Available");
   err.status = 404;
   next(err);
 });
@@ -33,17 +33,17 @@ app.use((req, res, next) => {
 app.use(function(err, req, res, next) {
   res.locals.error = err;
   console.error(err.status + " This Page Is Not Available");
-  res.status(404)
-  res.render('error', {
+  res.status(404);
+  res.render("error", {
     projects: projects,
     name: data.name,
     avatar: data.avatar,
     projectName: data.project_name,
-    about: data.about,
+    about: data.about
   });
 });
 
-// Server 
+// Server
 app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
