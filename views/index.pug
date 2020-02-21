@@ -4,16 +4,25 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      h1= projectName
-
-      p.lead.text-light= description
   article.grid-container.portfolio-index
-    
+
+    h1 Personal Projects
+    hr
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3      
       each project in projects
-        if project.status === "Complete"
+        if project.status === "Complete" && project.group === "Personal"
           .cell
             a(href=`/project/${project.id}`)
               img.thumbnail(src=`${project.image_urls[0]}`)
               h5= project.project_name
-    
+
+  article.grid-container.portfolio-index
+    h1 School Projects
+    hr
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3      
+      each project in projects
+        if project.status === "Complete" && project.group === "School"
+          .cell
+            a(href=`/project/${project.id}`)
+              img.thumbnail(src=`${project.image_urls[0]}`)
+              h5= project.project_name

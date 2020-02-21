@@ -125,7 +125,7 @@ a:hover {
 }
 
 .portfolio-index .cell {
-  margin-bottom: 15px;
+  margin-bottom: 2em;
 }
 
 .portfolio-index .cell h5 {
@@ -197,4 +197,27 @@ h5 {
 
 .portfolio-breadcrumb a {
   font-family: "Montserrat", sans-serif;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-width: 12em;
+  max-height: 12em;
+  margin-bottom: 2em;
+}
+
+.menu {
+  margin-top: 2em;
+}
+
+.menu-item {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+a.button.social {
+  margin-right: 0.5em;
 }

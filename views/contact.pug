@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h2= name
+
+        h6 Contact Info
+
+        ul
+          li= phone
+          li= email
+
+        a.button.social(href=`${linkedin}` target="_blank") <i class="fab fa-linkedin-in"></i>
+        a.button.social(href=`${github}` target="_blank") <i class="fab fa-github"></i>
+        a.button.social(href=`${twitter}` target="_blank") <i class="fab fa-twitter"></i>
+
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
