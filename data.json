@@ -111,6 +111,20 @@
       {
         "id": 6,
         "group": "School",
+        "project_name": "Project 7 | REACT APP using Flickr API",
+        "description": "This is a project that uses the Flickr API and React as the framework",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "live_link": "https://flickr.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/Project-7-TeamTreehouse-FSJ",
+        "image_urls": [
+          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_7/Flickr_api.png",
+          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_7/Flickr_api_2.png"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 7,
+        "group": "School",
         "project_name": "Scoreboard",
         "description": "This is a project that uses React with Redux for state.",
         "technologies": ["HTML", "CSS", "JavaScript", "React", "Redux"],
