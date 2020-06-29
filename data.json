@@ -4,7 +4,7 @@
     "avatar": "/static/images/avatar.jpg",
     "project_name": "Personal Portfolio",
     "about": "Full Stack JavaScript Developer",
-    "bio": "I have been working in web development for several years now. The projects I have done were very minimal in comparison the the content and projects I have been working on recently. I have build and maintained several small business websites, and onlune stores. I decided in December of 2018 that I would focus on directing my path to a degree in FullStack Web Development. Since then I have built many little projects, both personal and for educational purposes. I am really interested in the Vue JS framework and hope to develope a fundimental understanding of it. Here are some of my current projects. There will be more added in the future.",
+    "bio": "I have been working in web development for several years now. The projects I have done were very minimal in comparison to the content and projects I have been working on recently. I have built and maintained several small business websites, and online stores. I decided in December of 2018 that I would focus on directing my path to a degree in FullStack Web Development. Since then I have built many little projects, both personal and for educational purposes. I primarily use React JS or React Native to develop web and native applications. Here are some of my current projects. There will be more added in the future.",
     "skills": [
       "HTML",
       "CSS",
