@@ -24,7 +24,7 @@
   "homepage": "https://github.com/tylerdh12/Project-6-TeamTreehouse-FSJ#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "pug": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
