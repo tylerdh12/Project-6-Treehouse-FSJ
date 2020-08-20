@@ -112,6 +112,21 @@
       },
       {
         "id": 6,
+        "group": "Personal",
+        "project_name": "Color Palette",
+        "description": "This is a project that uses React and local state to manage a color palette",
+        "technologies": ["HTML", "CSS", "JavaScript", "React", "Local-State"],
+        "live_link": "https://colors.jsstack.dev/",
+        "github_link": "https://github.com/tylerdh12/Color-Palette-React",
+        "image_urls": [
+          "/static/images/projects/personal_project/ColorPalette-1.png",
+          "/static/images/projects/personal_project/ColorPalette-2.png",
+          "/static/images/projects/personal_project/ColorPalette-3.png"
+        ],
+        "status": "Complete"
+      },
+      {
+        "id": 7,
         "group": "School",
         "project_name": "Project 7 | REACT APP using Flickr API",
         "description": "This is a project that uses the Flickr API and React as the framework",
@@ -125,7 +140,7 @@
         "status": "Complete"
       },
       {
-        "id": 7,
+        "id": 8,
         "group": "School",
         "project_name": "Project 8 | Library Management Console",
         "description": "This is a project that uses pug design template design, and express for the back end",
@@ -139,7 +154,7 @@
         "status": "Incomplete"
       },
       {
-        "id": 8,
+        "id": 9,
         "group": "School",
         "project_name": "Project 9 | Courses REST API",
         "description": "This is a project that uses Express and Node to create a Backend for a Courses application that will have User Auth and will show courses with CRUD function.",
@@ -159,7 +174,7 @@
         "status": "Complete"
       },
       {
-        "id": 9,
+        "id": 10,
         "group": "School",
         "project_name": "Project 10 | Courses FullStack React App",
         "description": "This is a project that uses React for the Frontend and Express for the backend. This project is the Visual Layer (frontend) of the previous REST API created in my Unit 9 Project. This application is a Fullstack web application demonstrating React Routing, Client Login, and the CRUD operations that need to be available in a FullStack application.",
