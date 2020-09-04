@@ -178,8 +178,10 @@
         "live_link": "https://scoreboard.jsstack.dev/",
         "github_link": "https://github.com/tylerdh12/FSJS-Scoreboard",
         "image_urls": [
-          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_8/.png",
-          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_8/.png"
+          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_8/Library-Manager-1.png",
+          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_8/Library-Manager-2.png",
+          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_8/Library-Manager-3.png",
+          "/static/images/projects/treehouse_projects/fsjs_techdegree/unit_projects/project_8/Library-Manager-4.png"
         ],
         "status": "Incomplete"
       },
